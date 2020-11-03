@@ -7,7 +7,7 @@ class App extends Component {
     this.state = {
       time: null
     };
-    this.ctrlID = null;
+    this.ctrlID = "";
   }
 
   comentDidMount() {
