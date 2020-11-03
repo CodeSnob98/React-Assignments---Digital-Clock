@@ -5,9 +5,9 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      time: null
+      time: ""
     };
-    this.ctrlID = "";
+    this.ctrlID = null;
   }
 
   comentDidMount() {
