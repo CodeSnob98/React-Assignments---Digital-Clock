@@ -10,7 +10,7 @@ class App extends Component {
     this.ctrlID = null;
   }
 
-  comentDidMount() {
+  componentDidMount() {
     this.ctrlID = setInterval(function () {
       let event = new Date();
       this.setState({ time: event.toLocaleTimeString("en-US") });
